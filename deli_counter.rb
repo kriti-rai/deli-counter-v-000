@@ -5,10 +5,10 @@ def line(katz_deli)
   #puts "The line is currently empty" if empty
   if katz_deli.size == 0
     puts "The line is currently empty."
-  
+
   else
     current_line = []
-    katz_deli.each_with_index {|a,i| 
+    katz_deli.each_with_index {|a,i|
     current_line << i+1; current_line << "."; current_line << a}
     current_line = current_line.join(" ")
     puts "The line is currently: " + current_line
