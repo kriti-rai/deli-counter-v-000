@@ -2,10 +2,9 @@ katz_deli = []
 
 def line(katz_deli)
   # shows everyone in the line and their position.
-  #puts "The line is currently empty" if empty
+  # puts "The line is currently empty" if empty
   if katz_deli.size == 0
     puts "The line is currently empty."
-
   else
   	current_line = []
   	katz_deli.each_with_index {|a,i|
@@ -16,6 +15,10 @@ end
 
 def take_a_number(katz_deli, name)
   #Returns the person's name along with their position in line- "Welcome, "name". You are number "position" in line"
+  new_position = katz_deli.size + 1 
+  puts "Welcome, #{new_person}. You are number #{new_position} in line."
+   
+ end
 end
 
 def now_serving
