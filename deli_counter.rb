@@ -13,7 +13,7 @@ def line(katz_deli)
   end
 end
 
-def take_a_number(katz_deli, name)
+def take_a_number(katz_deli, new_person)
   #Returns the person's name along with their position in line- "Welcome, "name". You are number "position" in line"
   new_position = katz_deli.size + 1
   puts "Welcome, #{new_person}. You are number #{new_position} in line."
