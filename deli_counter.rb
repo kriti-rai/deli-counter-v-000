@@ -6,7 +6,7 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli, name)
-  #Returns the person's name along with their position in line
+  #Returns the person's name along with their position in line- "Welcome, "name". You are number "position" in line"
 end
 
 def now_serving
