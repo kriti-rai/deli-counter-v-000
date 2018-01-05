@@ -7,11 +7,11 @@ def line(katz_deli)
     puts "The line is currently empty."
 
   else
-    	# print "The line currently is:"
-    	katz_deli.each_with_index {|a,i|
-    	puts "The line currently is: #{i+1} #{a}"
-    	}
-    	end
+  	current_line = []
+  	katz_deli.each_with_index {|a,i| 
+  	current_line << "#{i+1}. #{a}"}
+  	puts "The line currently is: " + current_line.join(" ")
+  end
 end
 
 def take_a_number(katz_deli, name)
